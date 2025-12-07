@@ -25,7 +25,7 @@ def corr(df, factor_cols):
     plt.xticks(rotation=45, ha='right')
     plt.yticks(rotation=0)
     plt.tight_layout()
-    plt.savefig("factor_correlation_heatmap.png")
+    plt.savefig("plots/factor_correlation_heatmap.png")
     plt.show()
     
     
